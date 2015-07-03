@@ -3,5 +3,5 @@ bees:
   volumes:
     - ~:/root
   environment:
-    AWS_ACCESS_KEY_ID: AKIAJ2YSUERMHURJ54CA
-    AWS_SECRET_ACCESS_KEY: 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
+    AWS_ACCESS_KEY_ID:
+    AWS_SECRET_ACCESS_KEY:
