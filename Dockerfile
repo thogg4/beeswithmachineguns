@@ -1,5 +1,7 @@
 FROM python:2.7.9
 
+RUN apt-get update -qq && apt-get install -y apache2-utils
+
 RUN mkdir -p /app
 WORKDIR /app
 
